@@ -1,1 +1,100 @@
 // Add your custom CSS here.
+main {
+  background-image: url("./pacman.png");
+
+  .top-bar {
+    background-color: $white;
+    display: flex;
+    flex-direction: column-reverse;
+
+    &__nav {
+      font-size: 75%;
+    }
+
+    a.top-bar__countdown {
+      background-color: $white;
+      color: $gray-700;
+      filter: drop-shadow(8px 8px 10px $gray-500);
+    }
+  }
+
+  .header {
+    border-bottom: none;
+    background-color: $white;
+    
+
+    &__nav a {
+      color: $secondary;
+
+      &:hover {
+        border-bottom-color: $gray-600;
+        color: $gray-500;
+        background-color: transparent;
+      }
+    }
+  }
+
+  #search-input {
+    border: solid 1px $gray-200;
+  }
+
+  #cart-button {
+    i:before {
+      content: "";
+      display: inline-block;
+      background-repeat: no-repeat;
+      width: 36px;
+      height: 36px;
+      -webkit-mask: url("./5.png") no-repeat 50% 50%;
+      mask: url("./5.png") no-repeat 50% 50%;
+      -webkit-mask-size: cover;
+      mask-size: cover;
+    }
+
+    .fa-shopping-bag:before {
+      background-color: $secondary;
+    }
+
+    @media (hover: hover) {
+      .fa-shopping-bag:hover:before {
+        background-color: $primary;
+      }
+    }
+  }
+
+  #user-button {
+    i:before {
+      content: "";
+      display: inline-block;
+      background-repeat: no-repeat;
+      width: 36px;
+      height: 36px;
+      -webkit-mask: url("./user.svg") no-repeat 50% 50%;
+      mask: url("./user.svg") no-repeat 50% 50%;
+      -webkit-mask-size: cover;
+      mask-size: cover;
+    }
+
+    .fa-user:before {
+      background-color: $secondary;
+    }
+
+    @media (hover: hover) {
+      .fa-user:hover:before {
+        background-color: $primary;
+      }
+    }
+  }
+
+  .info-bar {
+    background-color: $secondary;
+  }
+
+  .footer {
+    background-color: $white;
+  }
+
+  .go-to-top {
+    background-color: $secondary;
+  }
+}
