@@ -1,34 +1,44 @@
-// Add your custom CSS here.
 main {
-  background-image: url("./pacman.png");
-
   .top-bar {
-    background-color: $white;
     display: flex;
     flex-direction: column-reverse;
 
     &__nav {
       font-size: 75%;
+      width: 100%;
     }
 
     a.top-bar__countdown {
-      background-color: $white;
-      color: $gray-700;
-      filter: drop-shadow(8px 8px 10px $gray-500);
+      background-image: linear-gradient(rgba($primary, 0.9), rgba($primary, 0.8)), url("./upload/fundo3.png");
+      font-weight: var(--font-bold);
+      height: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
+  }
+
+  .banner {
+    overflow: hidden;
+    img {
+      transition: all 10s;
+    }
+  }
+  .banner:hover img {
+    transform: scale(1.3);
   }
 
   .header {
     border-bottom: none;
-    background-color: $white;
-    
+    height: 100px;
 
     &__nav a {
       color: $secondary;
+      font-weight: var(--font-bold);
 
       &:hover {
         border-bottom-color: $gray-600;
-        color: $gray-500;
+        color: $primary;
         background-color: transparent;
       }
     }
@@ -45,8 +55,8 @@ main {
       background-repeat: no-repeat;
       width: 36px;
       height: 36px;
-      -webkit-mask: url("./5.png") no-repeat 50% 50%;
-      mask: url("./5.png") no-repeat 50% 50%;
+      -webkit-mask: url("./upload/5.png") no-repeat 50% 50%;
+      mask: url("./upload/5.png") no-repeat 50% 50%;
       -webkit-mask-size: cover;
       mask-size: cover;
     }
@@ -58,6 +68,7 @@ main {
     @media (hover: hover) {
       .fa-shopping-bag:hover:before {
         background-color: $primary;
+        filter: drop-shadow(24px 11px 16px #000000);
       }
     }
   }
@@ -69,8 +80,8 @@ main {
       background-repeat: no-repeat;
       width: 36px;
       height: 36px;
-      -webkit-mask: url("./user.svg") no-repeat 50% 50%;
-      mask: url("./user.svg") no-repeat 50% 50%;
+      -webkit-mask: url("./upload/user.svg") no-repeat 50% 50%;
+      mask: url("./upload/user.svg") no-repeat 50% 50%;
       -webkit-mask-size: cover;
       mask-size: cover;
     }
@@ -87,14 +98,18 @@ main {
   }
 
   .info-bar {
-    background-color: $secondary;
+    height: 100px;
+    &__item {
+      font-weight: var(--font-bold);
+      font-size: 90%;
+    }
+  }
+
+  #content {
+    background-image: linear-gradient(rgba($white, 0.9), rgba($white, 1)), url("./upload/fundo3.png");
   }
 
   .footer {
-    background-color: $white;
-  }
-
-  .go-to-top {
-    background-color: $secondary;
+    background-image: linear-gradient(rgba($light, 0.8), rgba($white, 1)), url("./upload/6.svg");
   }
 }
