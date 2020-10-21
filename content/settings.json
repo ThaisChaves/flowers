@@ -1,7 +1,7 @@
 {
   "domain": "ecomplus-storefront.netlify.app",
   "currency_symbol": "R$",
-  "primary_color": "#10dff0",
+  "primary_color": "#ff7a00",
   "theme": {
     "bootswatch": "_",
     "custom": "_"
@@ -15,7 +15,7 @@
   "mini_logo": "",
   "favicon": "/img/uploads/favicon.png",
   "country_code": "BR",
-  "secondary_color": "#ff7a00",
+  "secondary_color": "#00ffa7",
   "icon": "/img/icon.png",
   "store_id": 1117,
   "description": "Essa é uma loja demostrativa. Qualquer informação é apenas para efeito ilustrativo. ",
