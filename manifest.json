@@ -31,7 +31,7 @@
   "orientation": "portrait",
   "display": "standalone",
   "start_url": ".",
-  "description": "Essa é uma loja demostrativa. Qualquer informação é apenas para efeito ilustrativo. ",
+  "description": "Essa é uma loja demostrativa. Qualquer informação é apenas para efeito ilustrativo.",
   "background_color": "#ffffff",
   "theme_color": "#10dff0"
 }
