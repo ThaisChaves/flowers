@@ -1,33 +1,33 @@
 {
   "icons": [
     {
-      "src": "/icon_512x512.a0ba80003b3cf0f275a47885c5bf31c0.png",
+      "src": "/icon_512x512.0e18fc23ebc66f8b690fbc1fc176c32d.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "/icon_384x384.0240fb21e4a86ec97b70a10a0be82bb6.png",
+      "src": "/icon_384x384.bc6d512bfcf9a46006e34258cdc25f0d.png",
       "sizes": "384x384",
       "type": "image/png"
     },
     {
-      "src": "/icon_192x192.d3b4a59e45ac4460fb8bca55139e47f4.png",
+      "src": "/icon_192x192.a6d2532b76661a59b4322a51869babb1.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/icon_128x128.c58f8562c132df87ecb10c0598db083c.png",
+      "src": "/icon_128x128.d51c6ed04bbead74993774a3cc8be273.png",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "/icon_96x96.570e1710e5824f55c3c7a5c606cbfc9c.png",
+      "src": "/icon_96x96.2300935f5b5ac3f96bfe2a89f8398567.png",
       "sizes": "96x96",
       "type": "image/png"
     }
   ],
-  "name": "Flowers Theme",
-  "short_name": "Flowers Theme",
+  "name": "Fun Theme",
+  "short_name": "Fun Theme",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": ".",
