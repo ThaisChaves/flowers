@@ -43,6 +43,14 @@
           "img": "/img/uploads/1.6.png"
         }
       ]
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/10.png"
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/11.png"
     }
   ]
 }
