@@ -31,6 +31,10 @@
       "collection_id": null
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/10.png"
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
@@ -43,10 +47,6 @@
           "img": "/img/uploads/1.6.png"
         }
       ]
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/10.png"
     },
     {
       "type": "responsive-banner",
