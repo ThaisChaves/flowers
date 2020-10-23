@@ -26,10 +26,6 @@
       "enabled": true
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/10.png"
-    },
-    {
       "type": "banners-grid",
       "banners": [
         {
@@ -45,7 +41,7 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/11.png"
+      "img": "/img/uploads/10.png"
     },
     {
       "type": "banners-grid",
@@ -62,11 +58,8 @@
       ]
     },
     {
-      "type": "offers-timer",
-      "max_hours": 22,
-      "start": "2020-10-23T18:27:59.531Z",
-      "end": "2021-10-23T18:27:00.000Z",
-      "offers": []
+      "type": "responsive-banner",
+      "img": "/img/uploads/11.png"
     }
   ]
 }
