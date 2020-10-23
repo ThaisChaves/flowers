@@ -51,6 +51,17 @@
     {
       "type": "responsive-banner",
       "img": "/img/uploads/11.png"
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/1.7.png"
+        },
+        {
+          "img": "/img/uploads/1.3.png"
+        }
+      ]
     }
   ]
 }
